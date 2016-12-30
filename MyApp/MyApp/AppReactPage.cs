@@ -9,8 +9,6 @@ namespace blue
     {
         public override string MainComponentName => "blue";
 
-        //public override string JavaScriptMainModuleName => "../../index.windows";
-
 #if BUNDLE
         public override string JavaScriptBundleFile
         {
