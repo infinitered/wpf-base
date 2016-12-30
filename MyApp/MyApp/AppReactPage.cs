@@ -3,11 +3,11 @@ using ReactNative.Modules.Core;
 using ReactNative.Shell;
 using System.Collections.Generic;
 
-namespace blue
+namespace MyApp
 {
     internal class AppReactPage : ReactPage
     {
-        public override string MainComponentName => "blue";
+        public override string MainComponentName => "MyApp";
 
 #if BUNDLE
         public override string JavaScriptBundleFile

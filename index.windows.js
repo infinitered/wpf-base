@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-class blue extends Component {
+class MyApp extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -24,7 +24,7 @@ class blue extends Component {
         </Text>
         <Text style={styles.instructions}>
           Press Ctrl+R to reload,{'\n'}
-          Shift+F10 or shake for dev menu
+          Ctrl+D or Ctrl+M for dev menu
         </Text>
       </View>
     );
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('blue', () => blue);
+AppRegistry.registerComponent('MyApp', () => MyApp);
